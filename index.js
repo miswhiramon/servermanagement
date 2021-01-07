@@ -23,3 +23,4 @@ const test = ()=>{
         console.log("rr");
     }
 }
+test();
