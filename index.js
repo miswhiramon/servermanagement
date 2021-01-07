@@ -24,3 +24,9 @@ const test = (arg)=>{
     }
 }
 test(3);
+
+const unko2 = {
+    color:'pink',
+    size:'large',
+    perfume:'mint'
+};
