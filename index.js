@@ -37,4 +37,4 @@ const unko2 = {
 console.log(unko2.goToilet);
 console.log(innerHeight);
 console.log(innerWidth);
-console.log(window.alert());
+window.alert('Hello World');
