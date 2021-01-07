@@ -40,3 +40,6 @@ console.log(innerWidth);
 window.alert('Hello World');
 
 console.log(document.getElementsByTagName('button')[1]);
+document.getElementsByTagName('button')[1].addEventListener('click', ()=>{
+    window.alert('Hello World');
+});
