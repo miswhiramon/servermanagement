@@ -7,7 +7,7 @@ console.log(bigUnko);
 console.log(array[1]);
 //loop
 let i=0;
-while(i<5){
+while(i<array.length){
     console.log(i);
     console.log(array[i]);
     i++;
