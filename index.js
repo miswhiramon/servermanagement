@@ -34,4 +34,4 @@ const unko2 = {
     }
 };
 
-console.log(unko2.color);
+console.log(unko2.goToilet);
