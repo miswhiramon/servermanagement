@@ -31,4 +31,4 @@ const unko2 = {
     perfume:'mint'
 };
 
-console.log(unko2);
+console.log(unko2.color);
