@@ -14,8 +14,12 @@ while(i<array.length){
 
 }
 
-if(array.length>5){
-    console.log("gg");
-}else{
-    console.log("rr");
+
+
+const test = ()=>{
+    if(array.length>5){
+        console.log("gg");
+    }else{
+        console.log("rr");
+    }
 }
