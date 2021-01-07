@@ -28,7 +28,10 @@ test(3);
 const unko2 = {
     color:'pink',
     size:'large',
-    perfume:'mint'
+    perfume:'mint',
+    goToilet: ()=>{
+        console.log("Hello World!");
+    }
 };
 
 console.log(unko2.color);
