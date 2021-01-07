@@ -39,4 +39,4 @@ console.log(innerHeight);
 console.log(innerWidth);
 window.alert('Hello World');
 
-console.log(document.getElementsByTagName('button'));
+console.log(document.getElementsByTagName('button')[1]);
