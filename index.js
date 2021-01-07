@@ -16,11 +16,11 @@ while(i<array.length){
 
 
 
-const test = ()=>{
-    if(array.length>5){
+const test = (arg)=>{
+    if(array.length>arg){
         console.log("gg");
     }else{
         console.log("rr");
     }
 }
-test();
+test(3);
