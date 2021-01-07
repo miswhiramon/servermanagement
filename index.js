@@ -38,3 +38,5 @@ console.log(unko2.goToilet);
 console.log(innerHeight);
 console.log(innerWidth);
 window.alert('Hello World');
+
+console.log(document.getElementsByTagName('button'));
