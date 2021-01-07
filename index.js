@@ -30,3 +30,5 @@ const unko2 = {
     size:'large',
     perfume:'mint'
 };
+
+console.log(unko2);
