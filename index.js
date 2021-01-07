@@ -4,3 +4,4 @@ let unko ='Hello World!';
 const bigUnko = "Tesla";
 let array = ['one','two','three','four'];
 console.log(bigUnko);
+console.log(array);
