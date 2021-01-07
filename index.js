@@ -9,6 +9,7 @@ console.log(array[1]);
 let i=0;
 while(i<5){
     console.log(i);
+    console.log(array[i]);
     i++;
 
 }
