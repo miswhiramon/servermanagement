@@ -13,3 +13,7 @@ while(i<array.length){
     i++;
 
 }
+
+if(array.length>3){
+    console.log("gg");
+}
