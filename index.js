@@ -14,6 +14,8 @@ while(i<array.length){
 
 }
 
-if(array.length>3){
+if(array.length>5){
     console.log("gg");
+}else{
+    console.log("rr");
 }
