@@ -20,36 +20,27 @@ const setupQuiz = ()=>{
 
 setupQuiz();
 
-//クリックしたら正誤判定
-$button[0].addEventListener('click',(e)=>{
-    console.log(e);
+const clickHandler = (e) =>{
     if(correct===e.target.textContent){
         window.alert('正解!');
     }else{
         window.alert('不正解!');
     }
-})
+}
 
-$button[1].addEventListener('click',()=>{
-    if(correct===document.getElementsByTagName('button')[1].textContent){
-        window.alert('正解!');
-    }else{
-        window.alert('不正解!');
-    }
-})
+//クリックしたら正誤判定
+$button[0].addEventListener('click',(e)=>{
+    clickHandler(e);
+});
 
-$button[2].addEventListener('click',()=>{
-    if(correct===document.getElementsByTagName('button')[2].textContent){
-        window.alert('正解!');
-    }else{
-        window.alert('不正解!');
-    }
-})
+$button[1].addEventListener('click',(e)=>{
+    clickHandler(e);
+});
 
-$button[3].addEventListener('click',()=>{
-    if(correct===document.getElementsByTagName('button')[3].textContent){
-        window.alert('正解!');
-    }else{
-        window.alert('不正解!');
-    }
-})
+$button[2].addEventListener('click',(e)=>{
+    clickHandler(e);
+});
+
+$button[3].addEventListener('click',(e)=>{
+    clickHandler(e);
+});
