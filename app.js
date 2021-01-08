@@ -7,4 +7,4 @@ const answers=[
 ];
 const correct='ニンテンドーDS';
 
-console.log(document.getElementsByTagName('div'));
+console.log(document.getElementsById('js-question'));
