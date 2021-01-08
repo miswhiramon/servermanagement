@@ -10,14 +10,14 @@ const correct='ニンテンドーDS';
 console.log(document.getElementById('js-question').textContent);
 document.getElementById('js-question').textContent=question;
 
-const button = document.getElementsByTagName('button');
-button[0].textContent=answers[0];
-button[1].textContent=answers[1];
-button[2].textContent=answers[2];
-button[3].textContent=answers[3];
+const $button = document.getElementsByTagName('button');
+$button[0].textContent=answers[0];
+$button[1].textContent=answers[1];
+$button[2].textContent=answers[2];
+$button[3].textContent=answers[3];
 
 //クリックしたら正誤判定
-button[0].addEventListener('click',()=>{
+$button[0].addEventListener('click',()=>{
     if(correct===document.getElementsByTagName('button')[0].textContent){
         window.alert('正解!');
     }else{
