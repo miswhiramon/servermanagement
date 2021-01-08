@@ -48,7 +48,7 @@ const setupQuiz = ()=>{
     document.getElementById('js-question').textContent=quiz[quizIndex].question;
     let buttonIndex=0;
     while(buttonIndex<buttonLength){
-        $button[buttonIndex].textContent=answers[buttonIndex];
+        $button[buttonIndex].textContent=quiz[quizIndex].answers[buttonIndex];
         buttonIndex++;
     }
 }
