@@ -9,25 +9,29 @@ const quiz = [
         ],
         correct:'ニンテンドーDS'
     },{
-        question: '',
+        question: '好きな天気',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            '晴れ',
+            '曇り',
+            '雨',
+            '雪'
         ],
-        correct:''
+        correct:'晴れ'
     },{
-        question: '',
+        question: '休日の過ごし方',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            '家でゴロゴロ',
+            '外で散歩',
+            '買い物',
+            '外食'
         ],
-        correct:''
+        correct:'外食'
     }
 ]
+
+const quizLength = quiz.length;
+let quizIndex=0;
+
 
 const question='ゲーム市場、最も売れたゲーム機は?';
 const answers=[
@@ -56,6 +60,13 @@ const clickHandler = (e) =>{
         window.alert('正解!');
     }else{
         window.alert('不正解!');
+    }
+
+    quizIndex++;
+    if(quizIndex<quizLength){
+        setupQuiz();
+    }else{
+        window.alert('終了！');
     }
 }
 
