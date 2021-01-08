@@ -8,3 +8,4 @@ const answers=[
 const correct='ニンテンドーDS';
 
 console.log(document.getElementById('js-question').textContent);
+document.getElementById('js-question').textContent='Question';
