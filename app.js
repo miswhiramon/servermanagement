@@ -18,7 +18,7 @@ const setupQuiz = ()=>{
     }
 }
 
-
+setupQuiz();
 
 //クリックしたら正誤判定
 $button[0].addEventListener('click',()=>{
