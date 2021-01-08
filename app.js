@@ -1,3 +1,34 @@
+const quiz = [
+    {
+        question: 'ゲーム市場、最も売れたゲーム機は?',
+        answers: [
+            'スーパーファミコン',
+            'プレーステーション2',
+            'ニンテンドースイッチ',
+            'ニンテンドーDS'
+        ],
+        correct:'ニンテンドーDS'
+    },{
+        question: '',
+        answers: [
+            '',
+            '',
+            '',
+            ''
+        ],
+        correct:''
+    },{
+        question: '',
+        answers: [
+            '',
+            '',
+            '',
+            ''
+        ],
+        correct:''
+    }
+]
+
 const question='ゲーム市場、最も売れたゲーム機は?';
 const answers=[
     'スーパーファミコン',
