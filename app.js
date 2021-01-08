@@ -56,7 +56,7 @@ const setupQuiz = ()=>{
 setupQuiz();
 
 const clickHandler = (e) =>{
-    if(correct===e.target.textContent){
+    if(quiz[quizIndex].correct===e.target.textContent){
         window.alert('正解!');
     }else{
         window.alert('不正解!');
