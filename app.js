@@ -7,17 +7,18 @@ const answers=[
 ];
 const correct='ニンテンドーDS';
 
-console.log(document.getElementById('js-question').textContent);
-document.getElementById('js-question').textContent=question;
-
 const $button = document.getElementsByTagName('button');
-
-let buttonIndex=0;
-let buttonLength=$button.length;
-while(buttonIndex<buttonLength){
-    $button[buttonIndex].textContent=answers[buttonIndex];
-    buttonIndex++;
+const setupQuiz = ()=>{
+    document.getElementById('js-question').textContent=question;
+    let buttonIndex=0;
+    let buttonLength=$button.length;
+    while(buttonIndex<buttonLength){
+        $button[buttonIndex].textContent=answers[buttonIndex];
+        buttonIndex++;
+    }
 }
+
+
 
 //クリックしたら正誤判定
 $button[0].addEventListener('click',()=>{
