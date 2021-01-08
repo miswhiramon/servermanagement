@@ -28,6 +28,15 @@ const clickHandler = (e) =>{
     }
 }
 
+let handlerIndex=0;
+const buttonLength = $button.length;
+while(handlerIndex<buttonLength){
+    $button[handlerIndex].addEventListener('click',(e)=>{
+        clickHandler(e);
+    });
+    handlerIndex++;
+}
+
 //クリックしたら正誤判定
 $button[0].addEventListener('click',(e)=>{
     clickHandler(e);
