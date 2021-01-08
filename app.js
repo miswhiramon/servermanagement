@@ -21,8 +21,9 @@ const setupQuiz = ()=>{
 setupQuiz();
 
 //クリックしたら正誤判定
-$button[0].addEventListener('click',()=>{
-    if(correct===document.getElementsByTagName('button')[0].textContent){
+$button[0].addEventListener('click',(e)=>{
+    console.log(e);
+    if(correct===e.target.textContent){
         window.alert('正解!');
     }else{
         window.alert('不正解!');
