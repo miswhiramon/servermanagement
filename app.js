@@ -32,16 +32,6 @@ const quiz = [
 const quizLength = quiz.length;
 let quizIndex=0;
 
-
-const question='ゲーム市場、最も売れたゲーム機は?';
-const answers=[
-    'スーパーファミコン',
-    'プレーステーション2',
-    'ニンテンドースイッチ',
-    'ニンテンドーDS'
-];
-const correct='ニンテンドーDS';
-
 const $button = document.getElementsByTagName('button');
 const buttonLength = $button.length;
 const setupQuiz = ()=>{
