@@ -24,3 +24,27 @@ $button[0].addEventListener('click',()=>{
         window.alert('不正解!');
     }
 })
+
+$button[1].addEventListener('click',()=>{
+    if(correct===document.getElementsByTagName('button')[0].textContent){
+        window.alert('正解!');
+    }else{
+        window.alert('不正解!');
+    }
+})
+
+$button[2].addEventListener('click',()=>{
+    if(correct===document.getElementsByTagName('button')[0].textContent){
+        window.alert('正解!');
+    }else{
+        window.alert('不正解!');
+    }
+})
+
+$button[3].addEventListener('click',()=>{
+    if(correct===document.getElementsByTagName('button')[0].textContent){
+        window.alert('正解!');
+    }else{
+        window.alert('不正解!');
+    }
+})
