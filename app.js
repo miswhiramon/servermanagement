@@ -136,23 +136,23 @@ const quiz = [
         ],
         correct:'ハードウェア環境を貸している'
     },{
-        question: '',
+        question: '万が一壊れても安全な設計',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            'Fault Tolerant',
+            'Fail Soft',
+            'Fail Safe',
+            'Fool Proof'
         ],
-        correct:''
+        correct:'Fail Safe'
     },{
-        question: '',
+        question: 'サービスとしてプラットフォームを提供するクラウド形態は?',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            'SaaS',
+            'PaaS',
+            'IaaS',
+            'VPS'
         ],
-        correct:''
+        correct:'PaaS'
     }
 ]
 
