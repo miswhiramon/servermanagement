@@ -90,32 +90,33 @@ const quiz = [
         ],
         correct:'ユーザ'
     },{
-        question: '',
+        question: 'サーバの性能不足や構築技術不足で普及しなかったSaaSの前身は？',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            'UPS',
+            'VPS',
+            'ASP',
+            'TSS'
         ],
-        correct:''
+        correct:'ASP'
     },{
-        question: '',
+        question: 'SaaSを利用したときに企業側が行うことは？',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            'インフラストラクチャー構築',
+            'アプリケーション開発',
+            'ビジネスプロセス',
+            'サーバ施設構築'
         ],
-        correct:''
+        correct:'ビジネスプロセス'
     },{
-        question: '',
+        question: 'SaaS利用時は機密情報管理や障害対応でのトラブルを避けるため\
+        [ X ]を締結・見直しすることが大切である。',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            'TSS',
+            'SLA',
+            'VPS',
+            'UPS'
         ],
-        correct:''
+        correct:'SLA'
     },{
         question: '',
         answers: [
