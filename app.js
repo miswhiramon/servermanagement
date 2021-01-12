@@ -118,23 +118,23 @@ const quiz = [
         ],
         correct:'SLA'
     },{
-        question: '',
+        question: 'IaaSにおいてクラウド事業者が提供する部分',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            'アプリケーション',
+            'サーバ施設とハードウェア環境',
+            '土台となるソフトウェア環境',
+            'ビジネスプロセス'
         ],
-        correct:''
+        correct:'サーバ施設とハードウェア環境'
     },{
-        question: '',
+        question: 'IaaSとホスティングの違いとして不適切なもの',
         answers: [
-            '',
-            '',
-            '',
-            ''
+            '拡張性',
+            'Measured service',
+            'On-demand self-service',
+            'ハードウェア環境を貸している'
         ],
-        correct:''
+        correct:'ハードウェア環境を貸している'
     },{
         question: '',
         answers: [
