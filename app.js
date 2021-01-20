@@ -163,6 +163,7 @@ let score=0;
 const $button = document.getElementsByTagName('button');
 const buttonLength = $button.length;
 const setupQuiz = ()=>{
+    document.getElementById('q-number').innerHTML='<h5>'+(quizIndex+1)+'/'+quizLength+'</h5>';
     document.getElementById('js-question').innerHTML=quiz[quizIndex].question;
     let buttonIndex=0;
     while(buttonIndex<buttonLength){
